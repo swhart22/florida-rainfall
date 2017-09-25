@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Irma Rainfall</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- NBC CSS -->
+    <link href="css/nbcotsbase.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300,100' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Responsive iFrame stuff -->
+    <!--
+    <script src="http://data.nbcstations.com/js/crosstalk.js"></script>
+    <script type="text/javascript">
+         document.addEventListener("DOMContentLoaded", function() {
+            xtalk.responsive = false;
+            xtalk.init();
+         });
+    </script>
+    -->
+
+  </head>
+
+  <body>
+    <style>
+    #container{
+        width:970px;
+        height:700px;
+        position:relative;
+    }
+    #container canvas, #container svg{
+        position:absolute;
+        top:0px;
+        left:0px;
+    }
+    #timer{
+        left:100px;
+        top:480px;
+    }
+    #timer-hour{
+        font-weight:700;
+        font-size:30px;
+    }
+    @media (max-width: 970px) {
+        #container{
+            width:100%;
+            height:450px;
+        }
+         #timer{
+            left:100px;
+            top:245px;
+        }
+        #timer-hour{
+        font-weight:700;
+        font-size:20px;
+        }
+    }
+    </style>
+
+    <!-- Start content here -->
+    
+    <div class="blurb">
+            <p>The map below shows hourly rainfall in the Southeastern United States as the powerful storm Irma pounded the region early Sunday morning through Monday afternoon.</p>
+
+            <p>The National Weather Service releases hourly data on rainfall across the U.S., as measured in inches. The circles on the map are proportional to the amount of rainfall at a given point in the grid in a particular hour.</p>
+    </div>
+    <div id="container">
+    </div>
+    <div class="credits">Credit: Sam Hart/NBC, Data: National Weather Service</div>
+    <!--<div>
+        <p>Enter your Florida zip to see how much cumulative rainfall has fallen since Irma made landfall:</p> 
+        <form>
+            <input type="text" id="zip">
+        </form>
+    </div>-->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.2/d3.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+
+    <script src="js/index.js"></script>
+
+    <!--
+    <script type="text/javascript" src="js/miso.ds.deps.min.0.4.1.js"></script>
+    <script src="js/starter.js"></script>
+    -->
+
+  </body>
+</html>

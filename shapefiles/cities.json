@@ -1,0 +1,11 @@
+[
+		{'city':'Miami','lat':25.7617,'lon':-80.1918, 'pop':453579},
+		{'city':'Tampa','lat':27.9506,'lon':-82.4572, 'pop':377165},
+		{'city':'Jacksonville','lat':30.3322,'lon':-81.6557, 'pop':880619},
+		{'city':'Orlando','lat':28.5383,'lon':-81.3792,'pop':277173},
+		{'city':'Tallahassee', 'lat':30.4383, 'lon':-84.2807,'pop':190894},
+		{'city':'Atlanta','lat':33.7490, 'lon':-84.3880, 'pop':472522},
+		{'city':'Savannah','lat':32.0835, 'lon':-81.0998, 'pop':146763},
+		{'city':'Key West','lat':24.5551, 'lon':-81.7800, 'pop':26990},
+		{'city':'Charleston', 'lat':32.7765, 'lon':-79.9311, 'pop':134385}
+	]
